@@ -49,13 +49,13 @@ h1 {
   column-gap: 24px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 750px) {
   .preview {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .preview {
     grid-template-columns: repeat(1, 1fr);
   }
