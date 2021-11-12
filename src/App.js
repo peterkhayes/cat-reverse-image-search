@@ -33,7 +33,6 @@ function App() {
           <input
             type="file"
             multiple
-            capture="environment"
             accept="image/*"
             onChange={(e) => {
               onFiles(e.target.files)
