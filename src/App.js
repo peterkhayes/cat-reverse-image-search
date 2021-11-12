@@ -11,7 +11,7 @@ function App() {
   function onFiles(files) {
     const newImages = Array.from(files).map((file) => URL.createObjectURL(file))
     const newResults = newImages.map((image) => ({image, confidence: randomConfidence()}))
-    setResults((existingResults) => existingResults.concat(newResults))
+    setResults((existingResults) => newResults.reverse().concat(existingResults))
   }
 
   return (
@@ -41,7 +41,7 @@ function App() {
       </label>
       <section className="preview">
         {results.map((result, i) => (
-          <div className="chip" key={i}>
+          <div className="chip" key={results.length - i}>
             <img className="chip-image" src={result.image} alt="Chip" />
             <div className="chip-spacer" />
               <div className="chip-row">
