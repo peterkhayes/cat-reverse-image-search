@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cat-reverse-image-search/static/css/main.e41a4d07.chunk.css",
+    "main.css": "/cat-reverse-image-search/static/css/main.5ef48ce2.chunk.css",
     "main.js": "/cat-reverse-image-search/static/js/main.f5ff51bb.chunk.js",
     "main.js.map": "/cat-reverse-image-search/static/js/main.f5ff51bb.chunk.js.map",
     "runtime-main.js": "/cat-reverse-image-search/static/js/runtime-main.4b99f708.js",
@@ -10,13 +10,13 @@
     "static/js/3.156cfdd5.chunk.js": "/cat-reverse-image-search/static/js/3.156cfdd5.chunk.js",
     "static/js/3.156cfdd5.chunk.js.map": "/cat-reverse-image-search/static/js/3.156cfdd5.chunk.js.map",
     "index.html": "/cat-reverse-image-search/index.html",
-    "static/css/main.e41a4d07.chunk.css.map": "/cat-reverse-image-search/static/css/main.e41a4d07.chunk.css.map",
+    "static/css/main.5ef48ce2.chunk.css.map": "/cat-reverse-image-search/static/css/main.5ef48ce2.chunk.css.map",
     "static/js/2.a4af5173.chunk.js.LICENSE.txt": "/cat-reverse-image-search/static/js/2.a4af5173.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4b99f708.js",
     "static/js/2.a4af5173.chunk.js",
-    "static/css/main.e41a4d07.chunk.css",
+    "static/css/main.5ef48ce2.chunk.css",
     "static/js/main.f5ff51bb.chunk.js"
   ]
 }
